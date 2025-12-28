@@ -5,6 +5,7 @@ body {
   color: #ffffff;
 }
 
+/* ===== HEADER ===== */
 .header {
   text-align: center;
   padding: 40px 20px;
@@ -16,11 +17,24 @@ body {
   margin-bottom: 10px;
 }
 
+/* Prompt World title link */
+.site-title {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.site-title:hover {
+  text-decoration: underline;
+}
+
+/* ===== CATEGORIES ===== */
 .categories {
   padding: 30px;
   text-align: center;
 }
 
+.cat-grid a,
 .cat-grid span {
   display: inline-block;
   margin: 8px;
@@ -28,8 +42,17 @@ body {
   background: #1a1a1a;
   border-radius: 20px;
   font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background 0.2s ease;
 }
 
+.cat-grid a:hover {
+  background: #00ff99;
+  color: #000000;
+}
+
+/* ===== PROMPT CARD ===== */
 .prompt-card {
   max-width: 600px;
   margin: 30px auto;
@@ -43,6 +66,7 @@ body {
   border-radius: 10px;
 }
 
+/* ===== TEXTAREA ===== */
 textarea {
   width: 100%;
   height: 120px;
@@ -52,8 +76,10 @@ textarea {
   border: none;
   padding: 10px;
   border-radius: 8px;
+  resize: none;
 }
 
+/* ===== BUTTON ===== */
 button {
   width: 100%;
   margin-top: 15px;
@@ -64,12 +90,14 @@ button {
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
+  transition: background 0.2s ease;
 }
 
 button:hover {
   background: #00cc77;
 }
 
+/* ===== FOOTER ===== */
 .footer {
   text-align: center;
   padding: 20px;
