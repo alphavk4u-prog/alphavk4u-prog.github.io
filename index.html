@@ -17,15 +17,32 @@
   <p>Trending AI Image Prompts – Copy & Create</p>
 </header>
 
-<section class="categories">
-  <h2>Categories</h2>
-  <div class="cat-grid">
-    <a href="category/trending-ai-prompts.html">Trending AI Prompts</a>
-    <a href="category/midjourney-v7.html">Midjourney v7</a>
-    <a href="category/cinematic-dslr.html">Cinematic DSLR</a>
-    <a href="category/ai-influencer.html">AI Influencer</a>
-    <a href="category/luxury-lifestyle.html">Luxury Lifestyle</a>
-    <a href="category/anime-3d.html">Anime 3D</a>
+<section class="featured-slider">
+  <div class="slide active">
+    <img src="https://raw.githubusercontent.com/alphavk4u-prog/alphavk4u-prog.github.io/refs/heads/main/images/9022-min.jpg">
+    <div class="slide-content">
+      <h3>Featured Cinematic Prompt</h3>
+      <textarea id="featured-1" readonly>
+Ultra-realistic 8K cinematic portrait, dramatic lighting, 85mm lens, shallow depth of field, luxury editorial look, face 100% preserved.
+      </textarea>
+      <button onclick="copyPrompt('featured-1')">Copy Prompt</button>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="https://raw.githubusercontent.com/alphavk4u-prog/alphavk4u-prog.github.io/refs/heads/main/images/13655.jpg">
+    <div class="slide-content">
+      <h3>Featured Fashion Prompt</h3>
+      <textarea id="featured-2" readonly>
+High-fashion black and white portrait, dramatic studio lighting, Vogue editorial style, ultra-realistic, cinematic DSLR look.
+      </textarea>
+      <button onclick="copyPrompt('featured-2')">Copy Prompt</button>
+    </div>
+  </div>
+
+  <div class="slider-controls">
+    <button onclick="prevSlide()">‹</button>
+    <button onclick="nextSlide()">›</button>
   </div>
 </section>
 
