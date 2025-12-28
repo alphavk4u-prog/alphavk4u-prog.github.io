@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://alphavk4u-prog.github.io/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Category Pages -->
+  <url>
+    <loc>https://alphavk4u-prog.github.io/category/trending-ai-prompts.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://alphavk4u-prog.github.io/category/midjourney-v7.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://alphavk4u-prog.github.io/category/cinematic-dslr.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://alphavk4u-prog.github.io/category/ai-influencer.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://alphavk4u-prog.github.io/category/luxury-lifestyle.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://alphavk4u-prog.github.io/category/anime-3d.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Info / Legal Pages -->
+  <url>
+    <loc>https://alphavk4u-prog.github.io/pages/about.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://alphavk4u-prog.github.io/pages/privacy.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://alphavk4u-prog.github.io/pages/terms.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://alphavk4u-prog.github.io/pages/dmca.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://alphavk4u-prog.github.io/pages/contact.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
