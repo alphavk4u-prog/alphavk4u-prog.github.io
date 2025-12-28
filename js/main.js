@@ -1,7 +1,16 @@
 function copyPrompt(id) {
-  const text = document.getElementById(id);
-  text.select();
-  text.setSelectionRange(0, 99999);
-  document.execCommand("copy");
-  alert("Prompt copied ✅");
+  const textarea = document.getElementById(id);
+
+  if (!textarea) {
+    alert("Prompt not found ❌");
+    return;
+  }
+
+  const text = textarea.value;
+
+  navigator.clipboard.writeText(text).then(() => {
+    alert("Prompt copied ✅");
+  }).catch(() => {
+    alert("Copy failed ❌");
+  });
 }
