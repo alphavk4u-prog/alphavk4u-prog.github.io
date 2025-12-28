@@ -2,12 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>AI Prompt Website</title>
-  <meta name="description" content="AI Image Prompt showcase website with copy prompt feature">
+  <title>Prompt World – AI Image Prompts</title>
+  <meta name="description" content="Prompt World – Discover trending AI image prompts with one-click copy.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Website Live Ho Gayi 🚀</h1>
-  <p>GitHub Pages perfectly kaam kar raha hai.</p>
+
+<header class="header">
+  <h1>Prompt World</h1>
+  <p>Trending AI Image Prompts – Copy & Create</p>
+</header>
+
+<section class="categories">
+  <h2>Categories</h2>
+  <div class="cat-grid">
+    <span>Trending AI Prompts</span>
+    <span>Midjourney v7</span>
+    <span>Cinematic DSLR</span>
+    <span>AI Influencer</span>
+    <span>Luxury Lifestyle</span>
+    <span>Anime 3D</span>
+  </div>
+</section>
+
+<section class="prompt-card">
+  <img src="https://images.unsplash.com/photo-1549880338-65ddcdfd017b" alt="AI Prompt Image">
+
+  <textarea id="promptText" readonly>
+Ultra-realistic cinematic portrait, dramatic lighting, 85mm lens, shallow depth of field, dark moody background, hyper-detailed skin, professional photography.
+  </textarea>
+
+  <button onclick="copyPrompt()">Copy Prompt</button>
+</section>
+
+<footer class="footer">
+  <p>© 2025 Prompt World</p>
+  <p>Contact: <a href="mailto:Vvishalkumar430@gmail.com">Vvishalkumar430@gmail.com</a></p>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
