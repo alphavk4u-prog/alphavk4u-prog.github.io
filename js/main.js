@@ -36,3 +36,26 @@ function prevSlide() {
 document.addEventListener("DOMContentLoaded", () => {
   showSlide(currentSlide);
 });
+fetch("data/posts.json")
+  .then(res => res.json())
+  .then(posts => {
+    const container = document.querySelector(".homepage-posts");
+    if (!container) return;
+
+    posts
+      .filter(post => post.featured === true)
+      .forEach(post => {
+        const card = document.createElement("section");
+        card.className = "prompt-card";
+
+        card.innerHTML = `
+          <img src="${post.image}" alt="${post.title}">
+          <textarea readonly>${post.prompt}</textarea>
+          <button onclick="navigator.clipboard.writeText(\`${post.prompt}\`)">
+            Copy Prompt
+          </button>
+        `;
+
+        container.appendChild(card);
+      });
+  });
