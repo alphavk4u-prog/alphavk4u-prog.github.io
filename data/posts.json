@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": "luxury-001",
+    "title": "Luxury Lifestyle Gemini Prompt",
+    "category": "luxury-lifestyle",
+    "image": "https://raw.githubusercontent.com/alphavk4u-prog/alphavk4u-prog.github.io/refs/heads/main/images/1767001586607.jpg",
+    "prompt": "A handsome, stylish man sitting and posing in an all-monochromatic deep purple outfit featuring a wide-lapel coat and matching loose trousers, paired with a thick ribbed knit scarf wrapped around his neck and dark sneakers. He has a neatly trimmed beard and a serious, confident expression, with a purple wristwatch clearly visible. The scene is set against a solid deep purple background, creating a cohesive luxury fashion aesthetic. Ultra-clean editorial styling, premium textures, studio lighting, high-end fashion photography look. Use my face reference, face identity 100% preserved.",
+    "date": "2025-12-29",
+    "featured": true
+  }
+]
